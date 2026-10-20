@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "on_bottom_slab=false": {
+      "model": "shoesblockmod:block/orangeshoes"
+    },
+    "on_bottom_slab=true": {
+      "model": "shoesblockmod:block/orangeshoes_bottom_slab"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "on_bottom_slab=false": {
+      "model": "shoesblockmod:block/redshoes"
+    },
+    "on_bottom_slab=true": {
+      "model": "shoesblockmod:block/redshoes_bottom_slab"
+    }
+  }
+}

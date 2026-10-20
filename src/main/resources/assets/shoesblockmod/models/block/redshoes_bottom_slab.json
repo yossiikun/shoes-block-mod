@@ -1,16 +1,25 @@
 {
   "format_version": "1.9.0",
-  "credit": "Made with Blockbench",
+  "credit": "Generated from the standard shoe model with an 8-pixel downward offset for bottom slabs.",
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "1": "shoesblockmod:block/white",
+    "2": "shoesblockmod:block/red",
+    "particle": "shoesblockmod:block/red"
+  },
   "elements": [
     {
       "from": [
         3,
-        0,
+        -8,
         4
       ],
       "to": [
         6,
-        0.3,
+        -7.7,
         10
       ],
       "rotation": {
@@ -22,73 +31,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            3.7,
-            8,
-            4
+            6,
+            1,
+            7.5,
+            1.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            2,
-            3.7,
-            8,
-            4
+            4.5,
+            1.5,
+            7.5,
+            2
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            2,
-            3.7,
-            5,
-            4
+            6,
+            4.5,
+            7.5,
+            5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
+            4.5,
             2,
-            3.7,
-            8,
-            4
+            7.5,
+            2.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            2,
-            2,
-            5,
-            8
+            0,
+            0,
+            1.5,
+            3
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            2,
-            2,
-            5,
-            8
+            1.5,
+            0,
+            3,
+            3
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         3,
-        0.3,
+        -7.7,
         4
       ],
       "to": [
         4,
-        1.3,
+        -6.7,
         10
       ],
       "rotation": {
@@ -100,73 +109,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            7,
-            2,
+            9.5,
             8,
-            3
+            10,
+            8.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            2,
-            2,
-            8,
+            4.5,
+            2.5,
+            7.5,
             3
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            2,
-            2,
-            3,
-            3
+            8.5,
+            9.5,
+            9,
+            10
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            2,
-            2,
-            8,
-            3
+            3,
+            4.5,
+            6,
+            5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            2,
-            2,
             3,
+            5,
+            3.5,
             8
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            2,
-            2,
-            3,
+            3.5,
+            5,
+            4,
             8
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         4,
-        0.3,
+        -7.7,
         4
       ],
       "to": [
         5,
-        1.3,
+        -6.7,
         5
       ],
       "rotation": {
@@ -178,73 +187,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            6,
-            2,
-            7,
-            3
+            9.5,
+            8.5,
+            10,
+            9
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            7,
-            2,
-            8,
-            3
+            9,
+            9.5,
+            9.5,
+            10
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            3,
-            2,
-            4,
-            3
+            9.5,
+            9.5,
+            10,
+            10
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            2,
-            2,
-            3,
-            3
+            1,
+            10,
+            1.5,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            3,
+            1.5,
+            10,
             2,
-            4,
-            3
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            3,
-            7,
-            4,
-            8
+            2,
+            10,
+            2.5,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         4,
-        0.3,
+        -7.7,
         9
       ],
       "to": [
         5,
-        1.3,
+        -6.7,
         10
       ],
       "rotation": {
@@ -256,73 +265,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            6,
+            10,
             2,
-            7,
-            3
+            10.5,
+            2.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            2,
-            2,
+            2.5,
+            10,
             3,
-            3
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            3,
-            2,
-            4,
+            10,
+            2.5,
+            10.5,
             3
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            7,
-            2,
-            8,
-            3
+            3.5,
+            10,
+            4,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            3,
-            7,
-            4,
-            8
+            10,
+            3.5,
+            10.5,
+            4
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            3,
-            2,
             4,
-            3
+            10,
+            4.5,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         5,
-        0.3,
+        -7.7,
         4
       ],
       "to": [
         6,
-        1.3,
+        -6.7,
         10
       ],
       "rotation": {
@@ -334,73 +343,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            2,
-            6,
-            3
+            10,
+            4,
+            10.5,
+            4.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            2,
-            2,
-            8,
-            3
+            4.5,
+            3,
+            7.5,
+            3.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            4,
-            2,
+            4.5,
+            10,
             5,
-            3
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            2,
-            2,
-            8,
-            3
+            4.5,
+            3.5,
+            7.5,
+            4
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
             4,
-            2,
             5,
+            4.5,
             8
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            4,
-            2,
+            4.5,
+            5,
             5,
             8
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         3,
-        2.3,
+        -5.7,
         4
       ],
       "to": [
         6,
-        3.3,
+        -4.7,
         5
       ],
       "rotation": {
@@ -412,73 +421,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            1,
-            8,
-            2
+            0.5,
+            6.5,
+            2,
+            7
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            7,
-            1,
-            8,
-            2
+            10,
+            4.5,
+            10.5,
+            5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            2,
-            1,
-            5,
-            2
+            6.5,
+            6,
+            8,
+            6.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            2,
-            1,
-            3,
-            2
+            5,
+            10,
+            5.5,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            2,
-            2,
-            5,
-            3
+            6.5,
+            6.5,
+            8,
+            7
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            2,
+            0.5,
             7,
-            5,
-            8
+            2,
+            7.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         3,
-        1.3,
+        -6.7,
         4
       ],
       "to": [
         6,
-        2.3,
+        -5.7,
         5
       ],
       "rotation": {
@@ -490,73 +499,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            1,
+            6.5,
+            7,
             8,
-            2
+            7.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            7,
-            1,
-            8,
-            2
+            10,
+            5,
+            10.5,
+            5.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
+            0.5,
+            7.5,
             2,
-            1,
-            5,
-            2
+            8
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            2,
-            1,
-            3,
-            2
+            5.5,
+            10,
+            6,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            2,
-            2,
-            5,
-            3
+            7.5,
+            1,
+            9,
+            1.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            2,
-            7,
-            5,
-            8
+            7.5,
+            1.5,
+            9,
+            2
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         3,
-        1.3,
+        -6.7,
         5
       ],
       "to": [
         4,
-        2.3,
+        -5.7,
         7
       ],
       "rotation": {
@@ -568,73 +577,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            7,
-            1,
-            8,
-            2
+            10,
+            6,
+            10.5,
+            6.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            5,
-            1,
-            7,
-            2
-          ],
-          "texture": "#shoe"
-        },
-        "south": {
-          "uv": [
             2,
-            1,
-            3,
-            2
-          ],
-          "texture": "#shoe"
-        },
-        "west": {
-          "uv": [
-            3,
-            1,
-            5,
-            2
-          ],
-          "texture": "#shoe"
-        },
-        "up": {
-          "uv": [
-            2,
-            3,
-            3,
-            5
-          ],
-          "texture": "#shoe"
-        },
-        "down": {
-          "uv": [
-            2,
-            5,
+            6.5,
             3,
             7
           ],
-          "texture": "#shoe"
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            10,
+            6.5,
+            10.5,
+            7
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            2,
+            7,
+            3,
+            7.5
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            9,
+            2,
+            9.5,
+            3
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            9,
+            3,
+            9.5,
+            4
+          ],
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         3,
-        2.3,
+        -5.7,
         5
       ],
       "to": [
         4,
-        3.3,
+        -4.7,
         7
       ],
       "rotation": {
@@ -646,73 +655,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            1,
-            6,
-            2
+            7,
+            10,
+            7.5,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            5,
-            1,
-            7,
-            2
+            2,
+            7.5,
+            3,
+            8
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            4,
-            1,
-            5,
-            2
+            7.5,
+            10,
+            8,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            3,
-            1,
-            5,
-            2
+            3.5,
+            9,
+            4.5,
+            9.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
+            9,
             4,
-            3,
-            5,
+            9.5,
             5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            4,
+            4.5,
+            9,
             5,
-            5,
-            7
+            10
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         5,
-        1.3,
+        -6.7,
         5
       ],
       "to": [
         6,
-        2.3,
+        -5.7,
         7
       ],
       "rotation": {
@@ -724,73 +733,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            1,
-            6,
-            2
+            10,
+            8,
+            10.5,
+            8.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
             5,
-            1,
-            7,
-            2
+            9,
+            6,
+            9.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            4,
-            1,
-            5,
-            2
+            8.5,
+            10,
+            9,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            3,
-            1,
-            5,
-            2
+            6,
+            9,
+            7,
+            9.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            4,
-            3,
-            5,
-            5
+            7,
+            9,
+            7.5,
+            10
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            4,
-            5,
-            5,
-            7
+            7.5,
+            9,
+            8,
+            10
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         5,
-        2.3,
+        -5.7,
         5
       ],
       "to": [
         6,
-        3.3,
+        -4.7,
         7
       ],
       "rotation": {
@@ -802,73 +811,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            1,
-            6,
-            2
+            10,
+            8.5,
+            10.5,
+            9
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            5,
-            1,
-            7,
-            2
+            8,
+            9,
+            9,
+            9.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            4,
-            1,
-            5,
-            2
+            9,
+            10,
+            9.5,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            3,
-            1,
-            5,
-            2
+            9,
+            9,
+            10,
+            9.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            4,
-            3,
-            5,
-            5
+            0,
+            9.5,
+            0.5,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            4,
-            5,
-            5,
-            7
+            0.5,
+            9.5,
+            1,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         3,
-        1.3,
+        -6.7,
         7
       ],
       "to": [
         6,
-        2.3,
+        -5.7,
         10
       ],
       "rotation": {
@@ -880,73 +889,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            1,
-            8,
-            2
+            7.5,
+            2,
+            9,
+            2.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            2,
-            1,
-            5,
-            2
+            7.5,
+            2.5,
+            9,
+            3
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            2,
-            1,
-            5,
-            2
+            7.5,
+            3,
+            9,
+            3.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            5,
-            1,
-            8,
-            2
+            7.5,
+            3.5,
+            9,
+            4
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            2,
-            5,
-            5,
-            8
+            1.5,
+            3,
+            3,
+            4.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            2,
-            2,
-            5,
-            5
+            3,
+            3,
+            4.5,
+            4.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         3.25,
-        2.3,
+        -5.7,
         7
       ],
       "to": [
         5.75,
-        2.8,
+        -5.2,
         7.7
       ],
       "rotation": {
@@ -958,75 +967,73 @@
           6
         ]
       },
-      "color": 9,
       "faces": {
         "north": {
           "uv": [
-            1,
-            1.5,
-            3.5,
-            2
+            7.5,
+            4,
+            9,
+            4.5
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "east": {
           "uv": [
-            1.3,
-            1.5,
-            2,
-            2
+            10,
+            9,
+            10.5,
+            9.5
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "south": {
           "uv": [
-            0,
-            1.5,
-            2.5,
-            2
+            7.5,
+            4.5,
+            9,
+            5
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "west": {
           "uv": [
-            1,
-            1.5,
-            1.7,
-            2
+            9.5,
+            10,
+            10,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "up": {
           "uv": [
-            1,
-            0,
-            1.7,
-            2.5
+            6.5,
+            7.5,
+            8,
+            8
           ],
-          "rotation": 90,
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "down": {
           "uv": [
-            1,
-            0,
-            1.7,
-            2.5
+            0.5,
+            8,
+            2,
+            8.5
           ],
-          "rotation": 270,
-          "texture": "#shoe"
+          "texture": "#1"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         3.25,
-        2.3,
+        -5.7,
         8
       ],
       "to": [
         5.75,
-        2.8,
+        -5.2,
         8.7
       ],
       "rotation": {
@@ -1038,75 +1045,73 @@
           7
         ]
       },
-      "color": 9,
       "faces": {
         "north": {
           "uv": [
-            1,
-            1.5,
+            2,
+            8,
             3.5,
-            2
+            8.5
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "east": {
           "uv": [
-            1.3,
-            1.5,
-            2,
-            2
+            10,
+            9.5,
+            10.5,
+            10
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "south": {
           "uv": [
-            0,
-            1.5,
-            2.5,
-            2
+            3.5,
+            8,
+            5,
+            8.5
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "west": {
           "uv": [
-            1,
-            1.5,
-            1.7,
-            2
+            10,
+            10,
+            10.5,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "up": {
           "uv": [
-            1,
-            0,
-            1.7,
-            2.5
+            8,
+            5,
+            9.5,
+            5.5
           ],
-          "rotation": 90,
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "down": {
           "uv": [
-            1,
-            0,
-            1.7,
-            2.5
+            8,
+            5.5,
+            9.5,
+            6
           ],
-          "rotation": 270,
-          "texture": "#shoe"
+          "texture": "#1"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         10,
-        0,
+        -8,
         4
       ],
       "to": [
         13,
-        0.3,
+        -7.7,
         10
       ],
       "rotation": {
@@ -1118,73 +1123,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            3.7,
             8,
-            4
+            6,
+            9.5,
+            6.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            2,
-            3.7,
-            8,
-            4
+            4.5,
+            4,
+            7.5,
+            4.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            2,
-            3.7,
-            5,
-            4
+            6.5,
+            8,
+            8,
+            8.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            2,
-            3.7,
+            5,
+            5,
             8,
-            4
+            5.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            2,
-            2,
-            5,
-            8
+            0,
+            3,
+            1.5,
+            6
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            2,
-            2,
-            5,
-            8
+            3,
+            0,
+            4.5,
+            3
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         10,
-        0.3,
+        -7.7,
         4
       ],
       "to": [
         11,
-        1.3,
+        -6.7,
         10
       ],
       "rotation": {
@@ -1196,73 +1201,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            7,
-            2,
-            8,
-            3
+            0,
+            10.5,
+            0.5,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            2,
-            2,
+            5,
+            5.5,
             8,
-            3
+            6
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            2,
-            2,
-            3,
-            3
+            10.5,
+            0,
+            11,
+            0.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            2,
-            2,
-            8,
-            3
+            0,
+            6,
+            3,
+            6.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            2,
-            2,
-            3,
-            8
+            5,
+            6,
+            5.5,
+            9
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            2,
-            2,
-            3,
-            8
+            5.5,
+            6,
+            6,
+            9
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         11,
-        0.3,
+        -7.7,
         4
       ],
       "to": [
         12,
-        1.3,
+        -6.7,
         5
       ],
       "rotation": {
@@ -1274,73 +1279,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            6,
-            2,
-            7,
-            3
+            0.5,
+            10.5,
+            1,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            7,
-            2,
-            8,
-            3
+            10.5,
+            0.5,
+            11,
+            1
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            3,
-            2,
-            4,
-            3
+            1,
+            10.5,
+            1.5,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            2,
-            2,
-            3,
-            3
+            10.5,
+            1,
+            11,
+            1.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            3,
+            1.5,
+            10.5,
             2,
-            4,
-            3
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            3,
-            7,
-            4,
-            8
+            10.5,
+            1.5,
+            11,
+            2
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         11,
-        0.3,
+        -7.7,
         9
       ],
       "to": [
         12,
-        1.3,
+        -6.7,
         10
       ],
       "rotation": {
@@ -1352,73 +1357,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            6,
             2,
-            7,
-            3
+            10.5,
+            2.5,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
+            10.5,
             2,
-            2,
-            3,
-            3
+            11,
+            2.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
+            2.5,
+            10.5,
             3,
-            2,
-            4,
-            3
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            7,
-            2,
-            8,
+            10.5,
+            2.5,
+            11,
             3
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
             3,
-            7,
-            4,
-            8
+            10.5,
+            3.5,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
+            10.5,
             3,
-            2,
-            4,
-            3
+            11,
+            3.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         12,
-        0.3,
+        -7.7,
         4
       ],
       "to": [
         13,
-        1.3,
+        -6.7,
         10
       ],
       "rotation": {
@@ -1430,73 +1435,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            2,
-            6,
-            3
+            3.5,
+            10.5,
+            4,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            2,
-            2,
-            8,
-            3
+            6,
+            0,
+            9,
+            0.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            4,
-            2,
-            5,
-            3
+            10.5,
+            3.5,
+            11,
+            4
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            2,
-            2,
-            8,
-            3
+            6,
+            0.5,
+            9,
+            1
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            4,
-            2,
-            5,
-            8
+            6,
+            6,
+            6.5,
+            9
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            4,
-            2,
-            5,
-            8
+            0,
+            6.5,
+            0.5,
+            9.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         10,
-        2.3,
+        -5.7,
         4
       ],
       "to": [
         13,
-        3.3,
+        -4.7,
         5
       ],
       "rotation": {
@@ -1508,73 +1513,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            1,
             8,
-            2
+            6.5,
+            9.5,
+            7
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            7,
-            1,
-            8,
-            2
+            4,
+            10.5,
+            4.5,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            2,
-            1,
-            5,
-            2
+            8,
+            7,
+            9.5,
+            7.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            2,
-            1,
-            3,
-            2
+            10.5,
+            4,
+            11,
+            4.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            2,
-            2,
-            5,
-            3
+            8,
+            7.5,
+            9.5,
+            8
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            2,
-            7,
-            5,
-            8
+            8,
+            8,
+            9.5,
+            8.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         10,
-        1.3,
+        -6.7,
         4
       ],
       "to": [
         13,
-        2.3,
+        -5.7,
         5
       ],
       "rotation": {
@@ -1586,73 +1591,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            1,
-            8,
-            2
+            0.5,
+            8.5,
+            2,
+            9
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            7,
-            1,
-            8,
-            2
+            4.5,
+            10.5,
+            5,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
             2,
-            1,
-            5,
-            2
+            8.5,
+            3.5,
+            9
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            2,
-            1,
-            3,
-            2
+            10.5,
+            4.5,
+            11,
+            5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            2,
-            2,
+            3.5,
+            8.5,
             5,
-            3
+            9
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            2,
-            7,
-            5,
-            8
+            6.5,
+            8.5,
+            8,
+            9
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         10,
-        1.3,
+        -6.7,
         5
       ],
       "to": [
         11,
-        2.3,
+        -5.7,
         7
       ],
       "rotation": {
@@ -1664,73 +1669,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            7,
-            1,
-            8,
-            2
+            5,
+            10.5,
+            5.5,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            5,
             1,
-            7,
-            2
+            9.5,
+            2,
+            10
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            2,
-            1,
-            3,
-            2
+            10.5,
+            5,
+            11,
+            5.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
+            2,
+            9.5,
             3,
-            1,
-            5,
-            2
+            10
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
+            9.5,
             2,
-            3,
-            3,
-            5
+            10,
+            3
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            2,
-            5,
             3,
-            7
+            9.5,
+            3.5,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         10,
-        2.3,
+        -5.7,
         5
       ],
       "to": [
         11,
-        3.3,
+        -4.7,
         7
       ],
       "rotation": {
@@ -1742,73 +1747,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            1,
+            5.5,
+            10.5,
             6,
-            2
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            5,
-            1,
-            7,
-            2
+            9.5,
+            3,
+            10.5,
+            3.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            4,
-            1,
-            5,
-            2
+            10.5,
+            5.5,
+            11,
+            6
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            3,
-            1,
-            5,
-            2
+            3.5,
+            9.5,
+            4.5,
+            10
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            4,
-            3,
-            5,
-            5
+            9.5,
+            3.5,
+            10,
+            4.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            4,
-            5,
-            5,
-            7
+            9.5,
+            4.5,
+            10,
+            5.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         12,
-        1.3,
+        -6.7,
         5
       ],
       "to": [
         13,
-        2.3,
+        -5.7,
         7
       ],
       "rotation": {
@@ -1820,73 +1825,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            1,
             6,
-            2
+            10.5,
+            6.5,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
             5,
-            1,
-            7,
-            2
+            9.5,
+            6,
+            10
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            4,
-            1,
-            5,
-            2
+            10.5,
+            6,
+            11,
+            6.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            3,
-            1,
-            5,
-            2
+            9.5,
+            5.5,
+            10.5,
+            6
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            4,
-            3,
-            5,
-            5
+            6,
+            9.5,
+            6.5,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            4,
-            5,
-            5,
+            9.5,
+            6,
+            10,
             7
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         12,
-        2.3,
+        -5.7,
         5
       ],
       "to": [
         13,
-        3.3,
+        -4.7,
         7
       ],
       "rotation": {
@@ -1898,73 +1903,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            1,
-            6,
-            2
+            6.5,
+            10.5,
+            7,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            5,
-            1,
+            9.5,
             7,
-            2
+            10.5,
+            7.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            4,
-            1,
-            5,
-            2
+            10.5,
+            6.5,
+            11,
+            7
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            3,
-            1,
-            5,
-            2
+            9.5,
+            7.5,
+            10.5,
+            8
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            4,
-            3,
-            5,
-            5
+            6.5,
+            9.5,
+            7,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            4,
-            5,
-            5,
-            7
+            8,
+            9.5,
+            8.5,
+            10.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         10,
-        1.3,
+        -6.7,
         7
       ],
       "to": [
         13,
-        2.3,
+        -5.7,
         10
       ],
       "rotation": {
@@ -1976,73 +1981,73 @@
           6
         ]
       },
-      "color": 2,
       "faces": {
         "north": {
           "uv": [
-            5,
-            1,
             8,
-            2
+            8.5,
+            9.5,
+            9
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "east": {
           "uv": [
-            2,
-            1,
-            5,
-            2
+            9,
+            0,
+            10.5,
+            0.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "south": {
           "uv": [
+            0.5,
+            9,
             2,
-            1,
-            5,
-            2
+            9.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            5,
-            1,
-            8,
-            2
+            9,
+            0.5,
+            10.5,
+            1
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            2,
-            5,
-            5,
-            8
+            4.5,
+            0,
+            6,
+            1.5
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            2,
-            2,
-            5,
-            5
+            1.5,
+            4.5,
+            3,
+            6
           ],
-          "texture": "#shoe"
+          "texture": "#2"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         10.25,
-        2.3,
+        -5.7,
         7
       ],
       "to": [
         12.75,
-        2.8,
+        -5.2,
         7.7
       ],
       "rotation": {
@@ -2054,75 +2059,74 @@
           6
         ]
       },
-      "color": 9,
       "faces": {
         "north": {
           "uv": [
+            9,
             1,
-            1.5,
-            3.5,
-            2
+            10.5,
+            1.5
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "east": {
           "uv": [
-            1.3,
-            1.5,
-            2,
-            2
+            7,
+            10.5,
+            7.5,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "south": {
           "uv": [
-            0,
+            9,
             1.5,
-            2.5,
+            10.5,
             2
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "west": {
           "uv": [
-            1,
-            1.5,
-            1.7,
-            2
+            10.5,
+            7,
+            11,
+            7.5
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "up": {
           "uv": [
-            1,
-            0,
-            1.7,
-            2.5
+            2,
+            9,
+            3.5,
+            9.5
           ],
-          "rotation": 90,
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "down": {
           "uv": [
-            1,
-            0,
-            1.7,
-            2.5
+            2,
+            9,
+            3.5,
+            9.5
           ],
-          "rotation": 270,
-          "texture": "#shoe"
+          "rotation": 180,
+          "texture": "#1"
         }
-      }
+      },
+      "shade": true
     },
     {
       "from": [
         10.25,
-        2.3,
+        -5.7,
         8
       ],
       "to": [
         12.75,
-        2.8,
+        -5.2,
         8.7
       ],
       "rotation": {
@@ -2134,65 +2138,64 @@
           7
         ]
       },
-      "color": 9,
       "faces": {
         "north": {
           "uv": [
+            9,
             1,
-            1.5,
-            3.5,
-            2
+            10.5,
+            1.5
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "east": {
           "uv": [
-            1.3,
-            1.5,
-            2,
-            2
+            7,
+            10.5,
+            7.5,
+            11
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "south": {
           "uv": [
-            0,
+            9,
             1.5,
-            2.5,
+            10.5,
             2
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "west": {
           "uv": [
-            1,
-            1.5,
-            1.7,
-            2
+            10.5,
+            7,
+            11,
+            7.5
           ],
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "up": {
           "uv": [
-            1,
-            0,
-            1.7,
-            2.5
+            2,
+            9,
+            3.5,
+            9.5
           ],
-          "rotation": 90,
-          "texture": "#shoe"
+          "texture": "#1"
         },
         "down": {
           "uv": [
-            1,
-            0,
-            1.7,
-            2.5
+            2,
+            9,
+            3.5,
+            9.5
           ],
-          "rotation": 270,
-          "texture": "#shoe"
+          "rotation": 180,
+          "texture": "#1"
         }
-      }
+      },
+      "shade": true
     }
   ],
   "groups": [
@@ -2249,7 +2252,5 @@
       ]
     }
   ],
-  "textures": {
-    "shoe": "minecraft:block/brown_terracotta"
-  }
+  "ambientocclusion": true
 }
